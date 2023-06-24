@@ -1,0 +1,150 @@
+/* #lessons - grid - section */
+
+.grid-section {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%);
+    width: 100%;
+
+    margin: 0 auto;
+}
+.grid-section h2, p {font-weight: bold;
+    text-transform: uppercase }
+
+
+.lesson-heading-container {
+    width: 100%;
+    height: 325px;
+    max-height:325px ;
+    background-image: url(../images/web-slide-r.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    margin-bottom: 100px;
+}
+.lesson-heading-cover {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.lesson-heading-cover img {
+    height: 100%;
+}
+
+.lesson-heading-text {
+    z-index: 1;
+}
+
+.lesson-heading-text h2 {
+    padding: 20px;
+    font-size: 4.5em; color: #fff;
+}
+.lesson-heading-text span {
+     color: #d23228;
+}
+
+
+
+
+
+.lesson-container-1 {
+    text-align: center;
+    margin: 0px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-position: center center;
+    background-size: cover;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.lesson-container-1 img {
+    width: 275px;
+    height: 275px;
+    object-fit: cover;
+    border-radius: 15px;
+ }
+
+
+ .cover-content {
+    margin-top: 40px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+ }
+
+.cover-content h3 {
+    width: 100%;
+    font-size: 2em;
+    text-align: center;
+}
+
+.cover-content p {
+    font-size: 1.2em;
+    font-weight: normal;
+    text-align: left;
+}
+
+.cover-content ul li {
+    font-size: 1.4em;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA grid-section */
+
+@media (max-width: 768px) {
+
+
+
+
+
+
+
+
+
+
+
+
+    .grid-section {
+        height: auto;
+    }
+
+    .col-33 {
+        margin-top: 40px;
+    }
+
+    .grid-section h2 {
+        font-size: 2.7em;
+    }
+    .grid-section h3 {
+        font-size: 2em;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    .grid-section p {
+        font-size: 1em;
+    }
+
+
+}
